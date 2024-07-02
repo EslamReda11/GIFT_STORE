@@ -1,0 +1,57 @@
+Admin : http://127.0.0.1:8000/admin-dash
+Login Id : EslamReda_A@gmail.com
+Password : eslamredagoda123
+
+user: http://127.0.0.1:8000/user-dash
+Login Id : EslamReda_U@gmail.com
+Password : eslamzizo123
+
+php artisan serve
+
+
+(Installation Steps)
+1-move folder "E-Store" to C:\xampp\htdocs 
+2-open XAMPP and start --> (Apache , MySQL) 
+3-open http://localhost/dashboard/ , enter phpMyAdmin , create new Databases , name=db_store
+4-import file Databases from --> C:\xampp\htdocs\E-Store\info\db_store.sql
+5-open VSC , open folder--> C:\xampp\htdocs\E-Store , write in termina --> php artisan serve , open http://127.0.0.1:8000
+6-must be opened (XAMPP(Apache,MySQL) , command php artisan serve) both together
+
+(informations)
+APP_NAME=db_store
+APP_URL=http://127.0.0.1:8000
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=db_store
+DB_USERNAME=root
+DB_PASSWORD=
+Laravel --> 5.8
+vue --> 2.5.17
+bootstrap --> 4.1.0
+sass --> 1.15.2
+PHP Xampp<= 7.1.3 	--> https://sourceforge.net/projects/xampp/files/XAMPP%20Windows/7.4.12/xampp-portable-windows-x64-7.4.12-0-VC15-installer.exe/download
+Composer Version 2  	-->    https://getcomposer.org/
+cmder 			--> https://cmder.app/
+Bcrypt Hash Generator 	-->  https://bcrypt.online/
+
+
+
+
+
+
+
+Sport Digital Watch
+
+Price: $85.00
+Description: A robust digital watch designed for athletes and outdoor enthusiasts. Includes stopwatch, backlight, and multiple time zones.
+Features: Water-resistant up to 100 meters, durable resin strap, alarm function.
+
+Smar twatch
+
+Price: $200.00
+Description: A modern smartwatch with fitness tracking features, including heart rate monitoring, GPS, and notifications.
+Features: Touchscreen display, interchangeable straps, compatible with iOS and Android.
+
+
+

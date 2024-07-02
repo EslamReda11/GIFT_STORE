@@ -1,0 +1,7 @@
+//To clear cached views and routes:
+php artisan view:clear
+php artisan route:clear
+//To clear cached data and configuration:
+php artisan config:clear
+php artisan cache:clear
+php artisan optimize:clear
